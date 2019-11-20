@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1> Registration Form </h1>
+ <form>
+  <table>
+   <tr>
+    <td>Seller Name :</td>
+    <td><input type="text" name="Seller Name"  required></td>
+   </tr>
+   <tr>
+    <td>Address :</td>
+    <td><input type="text" name="Address"  required></td>
+   </tr>
+   <tr>
+    <td>City :</td>
+    <td>
+     <input type="text" name="City"  required>
+    </td>
+   </tr>
+   <tr>
+    <td>Phone no :</td>
+     <td><input type="text" name="Phone" required></td>
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="Email"  required></td>
+   </tr> 
+   <tr>
+    <td>Vehicle make, model and year  :</td>
+    <td>
+     <input type="text" name="Vehicle" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+   <tr>
+    <td>
+   <a href= "HomePage.html">
+    <button> Home </button>
+  </a>
+</td>
+</tr>
+  </table>
+ </form>
+</body>
+</html>
